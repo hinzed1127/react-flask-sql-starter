@@ -1,0 +1,57 @@
+{
+  "name": "empty-webpack",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "scripts": {
+    "start": "sh/start.sh"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "style-loader": "^0.21.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "@material-ui/core": "^1.0.0",
+    "@material-ui/icons": "^1.1.0",
+    "http-proxy": "^1.17.0",
+    "prop-types": "^15.6.2",
+    "nodemon": "^1.18.0"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/sqlalchemy-starter"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
